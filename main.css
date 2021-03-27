@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:black;
+}
+.title{
+    text-align: center;
+    background:white;
+    padding: 20px 0;
+}
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 15px;
+    position: relative;
+    
+}
+.score-board>.profile{
+    background-color: tomato;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+#profile-user{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:40px;
+    left: -20px;
+}
+#profile-comp{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:40px;
+    right: -20px;
+}
+.display-message{
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choices{
+    margin: 20px auto;
+    text-align: center;
+
+}
+.choice{
+    display: inline-block;
+    border: 3px solid wheat;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    transition: all  0.3s ease-in-out;
+}
+#scissor{
+    transform: rotate(-90deg);
+}
+.suggestion{
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
